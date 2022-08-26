@@ -1,0 +1,12 @@
+tg_bot/config.py
+*.pyc
+.idea/
+.project
+.pydevproject
+.directory
+.vscode
+/venv/
+*.jpg
+search_bleck_megick.py
+tg_bot/modules/inline_search.py
+tg_bot/modules/sql/movie_db_sql.py
