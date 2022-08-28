@@ -6,22 +6,22 @@ simple to use.
 
 Can be found on telegram as [Marie](https://t.me/BanhammerMarie_bot).
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/SpEcHiDe/PSonOfLars_BHMarie)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/r2spr/mariebot)
 
 Marie and I are moderating a [support group](https://t.me/MarieSupport), where you can ask for help setting up your
 bot, discover/request new features, report bugs, and stay in the loop whenever a new update is available. Of course
 I'll also help when a database schema changes, and some table column needs to be modified/added. Note to maintainers that all schema changes will be found in the commit messages, and its their responsibility to read any new commits.
 
-Join the [news channel](https://t.me/MarieNews) if you just want to stay in the loop about new features or
+Join the [news channel](https://t.me/HombaleCinemas) if you just want to stay in the loop about new features or
 announcements.
 
-Alternatively, [find me on telegram](https://t.me/SonOfLars)! (Keep all support questions in the support chat, where more people can help you.)
+Alternatively, [find me on telegram](https://t.me/r2spr)! (Keep all support questions in the support chat, where more people can help you.)
 
 
 ## IMPORTANT NOTICE:
 
 This project is no longer under active maintenance. Occasional bug fixes may be released, but no new features are scheduled to be added.
-Users of [Marie](https://t.me/BanhammerMarie_bot) are encouraged to migrate to [PyroGramBot](https://t.me/OwneRoBot), which
+Users of [Sophia](https://t.me/HombaleCinemas) are encouraged to migrate to [PyroGramBot](https://t.me/HombaleCinemas), which
 is the improved version of this project, written in PyroGram, with the intention to avoid various BOT API hiccups, and to protect group chats from (user)bots, floods and even lifeless losers.
 
 
@@ -54,13 +54,13 @@ from tg_bot.sample_config import Config
 
 
 class Development(Config):
-    OWNER_ID = 254318997  # my telegram ID
+    OWNER_ID =   # my telegram ID
     OWNER_USERNAME = "SonOfLars"  # my telegram username
     API_KEY = "your bot api key"  # my api key, as provided by the botfather
     SQLALCHEMY_DATABASE_URI = 'postgresql://username:password@localhost:5432/database'  # sample db credentials
     MESSAGE_DUMP = '-1234567890' # some group chat that your bot is a member of
     USE_MESSAGE_DUMP = True
-    SUDO_USERS = [18673980, 83489514]  # List of id's for users which have sudo access to the bot.
+    SUDO_USERS = [, ]  # List of id's for users which have sudo access to the bot.
     LOAD = []
     NO_LOAD = ['translation']
 ```
